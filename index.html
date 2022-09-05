@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="img/icon.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>Nailen</title>
+    </head>
+    <body>
+        <header>
+            <div class="name">
+                <div class="img">
+                    <img src="img/2to.jpeg" alt="">
+                </div>
+                <div class="contenedor">
+                    <p class="p1">Nailen Aguiar</p>
+                    <p class="p2">Desenvolvedora Back End Junior</p>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <!--Dados pessoais-->
+            <section>
+                <div class="info">
+                    <p class="titulosecao">Informação Pessoal</p>
+                    <p class="tituloinfo">Nome Completo:</p>
+                    <p class="informacao">Nailen Aguiar</p><br>
+                    <p class="tituloinfo">Endereço:</p>
+                    <p class="informacao">Rua meu Endereço</p><br>
+                    <p class="tituloinfo">Celular:</p>
+                    <p class="informacao">(DD) *********</p><br>
+                    <p class="tituloinfo">Email:</p>
+                    <p class="informacao">meuemail@toti.com.br</p><br>
+                </div>
+            </section>
+
+            <!--Quem sou-->
+            <section>
+                <div class="info">
+                    <p class="titulosecao">Quem sou eu??</p>
+                    <p class="tituloinfo">Muler</p>
+                    <p class="informacao">dedicada na busqueda de novas
+                        oportunidade</p><br>
+                    <p class="tituloinfo">Mãe</p>
+                    <p class="informacao">de 2 filhas, com mente empreendedora</p><br>
+                    <p class="tituloinfo">Pessoa</p>
+                    <p class="informacao">colaborativa, que gosta de trabalhar
+                        em
+                        equipe, com único interesse de crescer juntos</p><br>
+                </div>
+            </section>
+
+            <!--Formação-->
+            <section>
+                <div class="info">
+                    <p class="titulosecao">Formação</p>
+                    <p class="tituloinfo">Publicidade e Relaçoes Publicas
+                        (Superior
+                        Incompleto)</p>
+                    <p class="informacao">Faculdade "La Universidad del
+                        Zulia(Maracaibo-Venezuela)</p><br>
+                    <p class="tituloinfo">Curso de Ingles</p>
+                    <p class="informacao"> CEVAZ (Maracaibo-Venezuela)</p><br>
+                    <p class="tituloinfo">Curso de Desenvolvedor Web BackEnd</p>
+                    <p class="informacao">Toti (Brasil)</p><br>
+                    <p class="tituloinfo">Curso de Portugues Intermedio</p>
+                    <p class="informacao">Missão Paz (Brasil)</p><br>
+                </div>
+            </section>
+
+            <!--Mercado de trabalho-->
+            <section>
+                <div class="info">
+                    <p class="titulosecao">Experiencias no mercado de trabalho</p>
+                    <p class="tituloinfo">Auxiliar administrativo</p>
+                    <p class="informacao">Sindicato de Professores SINDTZUL</p><br>
+                    <p class="tituloinfo">Encarregada</p>
+                    <p class="informacao">Mercearia (Venezuela)</p><br>
+                    <p class="tituloinfo">Vendedora</p>
+                    <p class="informacao">Venda de freios automotivos;
+                        recebimento
+                        de materiais; recebimento no caixa • Servi Frenos
+                        (Venezuela)</p><br>
+                </div>
+            </section>
+
+            <!--Formulario-->
+            <section class="contact">
+
+                <div class="contacto">
+
+                    <H4 class="titulo_contato">Contato</H4>
+
+                    <p class="paragrafo_contato">
+                        Quer entrar em contato comigo?
+                        <br>
+                        <br>
+                        Preencha o formulário ao lado e entrarei <br> em contato
+                        o mais rápido possível.
+                        <br>
+                        <br>
+                        Você também pode me encontrar nas <br> seguintes redes
+                        sociais:
+                    </p>
+
+                    <a href="https://github.com/Nailenaguiar4"><img
+                            class="logogithub" src="Img/Git.png" width="10%"
+                            alt="github"></a>
+                    <a href="https://www.linkedin.com/in/nailen-aguiar-de-hernandez-5ab96723b/"><img
+                            class="logolinkedin" src="img/linkedin.png"
+                            width="10%" alt="linkedin"></a>
+                    <a href="https://www.instagram.com/aguiarnailen/"><img
+                            class="logoinstagram" src="Img/instagram.png"
+                            width="10%" alt="instagram"></a>
+
+                </div>
+
+                <div class="datos">
+
+                    <form name="form" action="#" onsubmit="return validar();">
+                        <label for="Nome">Nome</label><br>
+                        <input type="text" id="nome" name="nome"
+                            placeholder="Teu nome"><br>
+
+                        <label for="e-mail">E-mail</label><br>
+                        <input type="email" id="mail" name="email"
+                            onblur="validarEmail()" onfocus="redefinirMsg"
+                            placeholder="Teu e-mail"><br>
+                        <span id="erromail"></span>
+
+                        <label for="phone"> Telefone</label><br>
+                        <input type="text" id="telefone" name="telefone"
+                            placeholder="Teu Telefone"><br>
+
+                        <label for="text"> Menssagem</label><br>
+                        <textarea rors="30" cols="35" id="menssagem"
+                            name="menssagem" placeholder="Teu mensagem"></textarea><br>
+                        <button onclick="validar()" class="botaoenviar"
+                            id="submitbutton">Enviar!</button>
+                    </form>
+
+                </div>
+            </section>
+
+            <!--GitHub-->
+            <section>
+                <section>
+                    <div class="info">
+                        <p class="titulosecao">GitHub API</p>                        
+                            <ul class="ul"></ul>
+                    </div>
+                </section>
+            </section>
+            </main>
+
+            <script src="script.js"></script>
+        </body>
+    </html>
